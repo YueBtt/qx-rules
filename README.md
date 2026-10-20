@@ -5,18 +5,18 @@ Quantumult X 分流规则，**一个订阅搞定全部**。
 ## 订阅地址
 
 ```
-https://cdn.jsdelivr.net/gh/YueBtt/qx-rules@v3/qx.filter
+https://cdn.jsdelivr.net/gh/YueBtt/qx-rules@v4/qx.filter
 ```
 
 ## 覆盖范围
 
 | 分类 | 策略 | 条数 |
 |---|---|---|
-| 广告拦截 | reject | 970 |
-| 运营商劫持 | reject | 69 |
-| AI 服务 | proxy | 74 |
+| **广告拦截**（最优先） | reject | 970 |
+| **运营商劫持** | reject | 69 |
 | 社交 / Google / 流媒体 | proxy | 66 |
 | 开发工具 / 资讯 / 其他 | proxy | 53 |
+| AI 服务 | proxy | 74 |
 | 国内网站 | direct | 3704 |
 | 国内 IP | direct | 5666 |
 | 内网 | direct | 9 |
@@ -39,4 +39,4 @@ Quantumult X → 设置 → 分流 → 引用 → `+` → 粘贴订阅地址
 
 ## 更新
 
-以 v3 标签锁定版本，避免 CDN 缓存问题。更新时改标签重新推送。
+以 v4 标签锁定版本，避免 CDN 缓存问题。更新时改标签重新推送。
