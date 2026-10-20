@@ -14,12 +14,6 @@ host-suffix, umeng.com, reject
 host-suffix, cnzz.com, reject
 host-suffix, talkingdata.com, reject
 host-suffix, app-measurement.com, reject
-host-suffix, facebook.com/tr, reject
-host-keyword, /adserver, reject
-host-keyword, /adservice, reject
-host-keyword, /adsystem, reject
-host-keyword, /banner_ad, reject
-host-keyword, /popunder, reject
 
 ; ---------- AI 服务 ----------
 host-suffix, openai.com, proxy
