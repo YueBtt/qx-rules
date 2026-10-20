@@ -1,0 +1,252 @@
+; ============================================
+;  Quantumult X 分流规则 · 自动更新版
+;  托管于 GitHub + jsDelivr CDN
+; ============================================
+
+; ---------- 广告拦截（优先） ----------
+host-suffix, doubleclick.net, reject
+host-suffix, googleadservices.com, reject
+host-suffix, googlesyndication.com, reject
+host-suffix, google-analytics.com, reject
+host-suffix, googletagmanager.com, reject
+host-suffix, adservice.google.com, reject
+host-suffix, umeng.com, reject
+host-suffix, cnzz.com, reject
+host-suffix, talkingdata.com, reject
+host-suffix, app-measurement.com, reject
+host-suffix, facebook.com/tr, reject
+host-keyword, /adserver, reject
+host-keyword, /adservice, reject
+host-keyword, /adsystem, reject
+host-keyword, /banner_ad, reject
+host-keyword, /popunder, reject
+
+; ---------- AI 服务 ----------
+host-suffix, openai.com, proxy
+host-suffix, chatgpt.com, proxy
+host-suffix, oaistatic.com, proxy
+host-suffix, oaiusercontent.com, proxy
+host-suffix, anthropic.com, proxy
+host-suffix, claude.ai, proxy
+host-suffix, gemini.google.com, proxy
+host-suffix, aistudio.google.com, proxy
+host-suffix, bard.google.com, proxy
+host-suffix, perplexity.ai, proxy
+host-suffix, grok.com, proxy
+host-suffix, x.ai, proxy
+host-suffix, copilot.microsoft.com, proxy
+host-suffix, huggingface.co, proxy
+host-suffix, mistral.ai, proxy
+host-suffix, poe.com, proxy
+host-suffix, openrouter.ai, proxy
+host-suffix, midjourney.com, proxy
+host-suffix, stability.ai, proxy
+host-suffix, elevenlabs.io, proxy
+host-suffix, suno.com, proxy
+host-suffix, runwayml.com, proxy
+host-suffix, deepseek.com, proxy
+host-suffix, cohere.ai, proxy
+host-suffix, together.ai, proxy
+
+; ---------- 社交 ----------
+host-suffix, x.com, proxy
+host-suffix, twitter.com, proxy
+host-suffix, twimg.com, proxy
+host-suffix, t.co, proxy
+host-suffix, telegram.org, proxy
+host-suffix, t.me, proxy
+host-suffix, telegram.me, proxy
+host-suffix, tdesktop.com, proxy
+host-suffix, facebook.com, proxy
+host-suffix, fbcdn.net, proxy
+host-suffix, instagram.com, proxy
+host-suffix, cdninstagram.com, proxy
+host-suffix, whatsapp.com, proxy
+host-suffix, whatsapp.net, proxy
+host-suffix, reddit.com, proxy
+host-suffix, redd.it, proxy
+host-suffix, redditmedia.com, proxy
+host-suffix, discord.com, proxy
+host-suffix, discordapp.com, proxy
+host-suffix, discordapp.net, proxy
+host-suffix, threads.net, proxy
+host-suffix, linkedin.com, proxy
+host-suffix, medium.com, proxy
+host-suffix, tumblr.com, proxy
+
+; ---------- Google 全家桶 ----------
+host-suffix, google.com, proxy
+host-suffix, googleapis.com, proxy
+host-suffix, gstatic.com, proxy
+host-suffix, googleusercontent.com, proxy
+host-suffix, googlevideo.com, proxy
+host-suffix, ggpht.com, proxy
+host-suffix, gvt1.com, proxy
+host-suffix, gvt2.com, proxy
+host-suffix, withgoogle.com, proxy
+host-suffix, recaptcha.net, proxy
+
+; ---------- 流媒体 ----------
+host-suffix, youtube.com, proxy
+host-suffix, youtu.be, proxy
+host-suffix, ytimg.com, proxy
+host-suffix, googlevideo.com, proxy
+host-suffix, netflix.com, proxy
+host-suffix, nflxvideo.net, proxy
+host-suffix, nflximg.net, proxy
+host-suffix, nflxso.net, proxy
+host-suffix, disneyplus.com, proxy
+host-suffix, disney-plus.net, proxy
+host-suffix, dssott.com, proxy
+host-suffix, bamgrid.com, proxy
+host-suffix, primevideo.com, proxy
+host-suffix, amazonvideo.com, proxy
+host-suffix, aiv-cdn.net, proxy
+host-suffix, hbomax.com, proxy
+host-suffix, max.com, proxy
+host-suffix, hulu.com, proxy
+host-suffix, spotify.com, proxy
+host-suffix, scdn.co, proxy
+host-suffix, tidal.com, proxy
+host-suffix, soundcloud.com, proxy
+host-suffix, twitch.tv, proxy
+host-suffix, ttvnw.net, proxy
+host-suffix, crunchyroll.com, proxy
+host-suffix, vimeo.com, proxy
+host-suffix, dailymotion.com, proxy
+host-suffix, pornhub.com, proxy
+host-suffix, xvideos.com, proxy
+host-suffix, xhamster.com, proxy
+host-suffix, onlyfans.com, proxy
+
+; ---------- 开发/技术 ----------
+host-suffix, github.com, proxy
+host-suffix, githubusercontent.com, proxy
+host-suffix, githubassets.com, proxy
+host-suffix, github.io, proxy
+host-suffix, gitlab.com, proxy
+host-suffix, bitbucket.org, proxy
+host-suffix, stackoverflow.com, proxy
+host-suffix, stackexchange.com, proxy
+host-suffix, npmjs.com, proxy
+host-suffix, npmjs.org, proxy
+host-suffix, pypi.org, proxy
+host-suffix, pythonhosted.org, proxy
+host-suffix, docker.com, proxy
+host-suffix, docker.io, proxy
+host-suffix, cloudflare.com, proxy
+host-suffix, vercel.com, proxy
+host-suffix, netlify.com, proxy
+host-suffix, herokuapp.com, proxy
+host-suffix, digitalocean.com, proxy
+host-suffix, aws.amazon.com, proxy
+host-suffix, jetbrains.com, proxy
+
+; ---------- 资讯/百科 ----------
+host-suffix, wikipedia.org, proxy
+host-suffix, wikimedia.org, proxy
+host-suffix, wiktionary.org, proxy
+host-suffix, bbc.com, proxy
+host-suffix, bbc.co.uk, proxy
+host-suffix, nytimes.com, proxy
+host-suffix, cnn.com, proxy
+host-suffix, reuters.com, proxy
+host-suffix, bloomberg.com, proxy
+host-suffix, theguardian.com, proxy
+host-suffix, wsj.com, proxy
+host-suffix, economist.com, proxy
+host-suffix, hackernews.com, proxy
+host-suffix, ycombinator.com, proxy
+host-suffix, producthunt.com, proxy
+
+; ---------- 其他常用 ----------
+host-suffix, apple.com, proxy
+host-suffix, icloud.com, proxy
+host-suffix, microsoft.com, proxy
+host-suffix, live.com, proxy
+host-suffix, office.com, proxy
+host-suffix, bing.com, proxy
+host-suffix, dropbox.com, proxy
+host-suffix, notion.so, proxy
+host-suffix, figma.com, proxy
+host-suffix, slack.com, proxy
+host-suffix, zoom.us, proxy
+host-suffix, paypal.com, proxy
+host-suffix, stripe.com, proxy
+host-suffix, binance.com, proxy
+host-suffix, coinbase.com, proxy
+host-suffix, steamcommunity.com, proxy
+host-suffix, steampowered.com, proxy
+host-suffix, epicgames.com, proxy
+host-suffix, playstation.com, proxy
+host-suffix, nintendo.com, proxy
+
+; ---------- 国内直连（防误走代理） ----------
+host-suffix, cn, direct
+host-suffix, baidu.com, direct
+host-suffix, bdstatic.com, direct
+host-suffix, qq.com, direct
+host-suffix, qpic.cn, direct
+host-suffix, qqmail.com, direct
+host-suffix, weixin.qq.com, direct
+host-suffix, wechat.com, direct
+host-suffix, weibo.com, direct
+host-suffix, sina.com.cn, direct
+host-suffix, sinaimg.cn, direct
+host-suffix, taobao.com, direct
+host-suffix, tmall.com, direct
+host-suffix, alipay.com, direct
+host-suffix, alibaba.com, direct
+host-suffix, aliyuncs.com, direct
+host-suffix, alicdn.com, direct
+host-suffix, jd.com, direct
+host-suffix, 360buyimg.com, direct
+host-suffix, pinduoduo.com, direct
+host-suffix, bilibili.com, direct
+host-suffix, hdslb.com, direct
+host-suffix, bilivideo.com, direct
+host-suffix, douyin.com, direct
+host-suffix, douyinpic.com, direct
+host-suffix, kuaishou.com, direct
+host-suffix, xiaohongshu.com, direct
+host-suffix, xhscdn.com, direct
+host-suffix, zhihu.com, direct
+host-suffix, zhimg.com, direct
+host-suffix, 163.com, direct
+host-suffix, 126.net, direct
+host-suffix, 127.net, direct
+host-suffix, sohu.com, direct
+host-suffix, youku.com, direct
+host-suffix, iqiyi.com, direct
+host-suffix, qq.com, direct
+host-suffix, tencent.com, direct
+host-suffix, tencentcloud.com, direct
+host-suffix, myqcloud.com, direct
+host-suffix, huawei.com, direct
+host-suffix, xiaomi.com, direct
+host-suffix, mi.com, direct
+host-suffix, meituan.com, direct
+host-suffix, dianping.com, direct
+host-suffix, ctrip.com, direct
+host-suffix, 12306.cn, direct
+host-suffix, amap.com, direct
+host-suffix, autohome.com.cn, direct
+host-suffix, csdn.net, direct
+host-suffix, cnblogs.com, direct
+host-suffix, gitee.com, direct
+host-suffix, aliyun.com, direct
+host-suffix, gov.cn, direct
+host-suffix, edu.cn, direct
+host-suffix, 10086.cn, direct
+host-suffix, 189.cn, direct
+host-suffix, 10010.com, direct
+
+; ---------- IP 段 ----------
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+ip-cidr, 127.0.0.0/8, direct
+geoip, cn, direct
+
+; ---------- 兜底 ----------
+final, proxy
