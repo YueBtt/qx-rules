@@ -5018,13 +5018,7 @@ ip6-cidr, 2001:b28:f23c::/47, ✉️ Telegram
 ip6-cidr, 2001:b28:f23f::/48, ✉️ Telegram
 ip6-cidr, 2a0a:f280::/29, ✉️ Telegram
 ; ===== TG END =====
-; ===== X CDN DIRECT =====
-host-suffix, pbs.twimg.com, direct
-host-suffix, video.twimg.com, direct
-host-suffix, ton.twimg.com, direct
-host-suffix, abs.twimg.com, direct
-host-suffix, cdn.syndication.twimg.com, direct
-; ===== X PROXY =====
+; ===== X PROXY (含图片视频CDN) =====
 host-suffix, x.com, 𝕏 Twitter
 host-suffix, twitter.com, 𝕏 Twitter
 host-suffix, twimg.com, 𝕏 Twitter
