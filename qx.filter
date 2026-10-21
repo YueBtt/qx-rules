@@ -5022,5 +5022,26 @@ ip6-cidr, 2001:b28:f23c::/47, ✉️ Telegram
 ip6-cidr, 2001:b28:f23f::/48, ✉️ Telegram
 ip6-cidr, 2a0a:f280::/29, ✉️ Telegram
 ; ===== TG END =====
+; ===== YT BEGIN =====
+host-suffix, youtube.com, 🎬 YouTube
+host-suffix, youtu.be, 🎬 YouTube
+host-suffix, ytimg.com, 🎬 YouTube
+host-suffix, googlevideo.com, 🎬 YouTube
+host-suffix, yt3.ggpht.com, 🎬 YouTube
+host-suffix, youtubekids.com, 🎬 YouTube
+host-suffix, youtube-nocookie.com, 🎬 YouTube
+host-suffix, yt.be, 🎬 YouTube
+host-suffix, ytimg.l.google.com, 🎬 YouTube
+host-suffix, ytstatic.l.google.com, 🎬 YouTube
+host-suffix, yt-video-gateway.com, 🎬 YouTube
+host-suffix, yt.googleapis.com, 🎬 YouTube
+host-suffix, youtubemusic.com, 🎬 YouTube
+host, m.youtube.com, 🎬 YouTube
+host, www.youtube.com, 🎬 YouTube
+host, tv.youtube.com, 🎬 YouTube
+host, studio.youtube.com, 🎬 YouTube
+host-suffix, yt4.ggpht.com, 🎬 YouTube
+host-suffix, yt3.googleusercontent.com, 🎬 YouTube
+; ===== YT END =====
 final, proxy
 
