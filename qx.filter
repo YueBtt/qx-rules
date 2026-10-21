@@ -5024,22 +5024,14 @@ host-suffix, video.twimg.com, direct
 host-suffix, ton.twimg.com, direct
 host-suffix, abs.twimg.com, direct
 host-suffix, cdn.syndication.twimg.com, direct
-host-suffix, x.iamcdn.net, direct
-; ===== X API PROXY =====
-host, x.com, 𝕏 Twitter
-host, www.x.com, 𝕏 Twitter
-host, api.x.com, 𝕏 Twitter
-host, graphql.x.com, 𝕏 Twitter
-host, upload.x.com, 𝕏 Twitter
-host, api.twitter.com, 𝕏 Twitter
-host, upload.twitter.com, 𝕏 Twitter
-host, twitter.com, 𝕏 Twitter
-host, www.twitter.com, 𝕏 Twitter
+; ===== X PROXY =====
+host-suffix, x.com, 𝕏 Twitter
+host-suffix, twitter.com, 𝕏 Twitter
 host-suffix, twimg.com, 𝕏 Twitter
 host-suffix, t.co, 𝕏 Twitter
 host-suffix, twitter.co, 𝕏 Twitter
 host-suffix, twttr.com, 𝕏 Twitter
 host-suffix, twttr.net, 𝕏 Twitter
-host-suffix, twitter.map.fastly.net, 𝕏 Twitter
+host-suffix, twttr.app, 𝕏 Twitter
 final, proxy
 
